@@ -1,0 +1,30 @@
+#bigContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+#title{
+    font-size: 50px;
+    color:grey;
+    text-align: center;
+    margin: 5px;
+}
+
+#buttonSpace{
+    text-align: center;
+    margin:10px;
+}
+
+.box{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
